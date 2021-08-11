@@ -80,12 +80,38 @@ nav ul li{
 }
 .services__grid{
     display: grid;
-    grid-template-columns: 500px 500px;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
     justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.service__content
+.service__content img{
+    position: relative;
+    left: 40%;
+}
+.service__content h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+.service__content p{
+    text-align: center;
+    padding: 10px 15px 0;
+    color: hsl(0, 0%, 100%);
+}
+/*Productive*/
+.productive{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+.productive__grid{
+    display: grid;
+    grid-template-columns: auto auto;
 
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
